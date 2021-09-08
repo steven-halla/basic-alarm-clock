@@ -11,7 +11,7 @@ class Alarm_Clock:
     def turn_alarm_on_off(self):
 
         print("alarm clock says hi")
-        button = input("Do you want to set alarm to on or off? Type on or off")
+        button = input("Do you want to set alarm to on or off? Type on or off").lower()
         if button == "on":
             self.is_on_or_off = True
             print("You turned on the alarm clock")
